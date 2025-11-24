@@ -28,6 +28,10 @@ We want to store information about who is winning each game and finish our leade
 - Finish the started api/leaderboard endpoint, to send updates to the database.
 HINT: Use an 'arcade' style leaderboard, where you enter a name at the end of the game and send the name to the endpoint.
 
+### BONUS
+
+Currently we are using REST endpoints to mutate our db - can you create a new page at "/server-leaderboard", where we use next server actions instead? (https://nextjs.org/docs/app/getting-started/updating-data)
+
 
 ## Quickstart
 - Make sure you have **node** installed
