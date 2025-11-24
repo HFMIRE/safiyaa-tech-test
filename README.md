@@ -15,12 +15,12 @@ We want to make a basic game of Tic-Tac-Toe as outlined [here](https://en.wikipe
 - Please implement a complete basic game of Tic-Tac-Toe
 - Please use React and TypeScript throughout, if you know TailwindCSS, we have preconfigured it so you can use it as a bonus.
 - Both players will play out of the same application, it is sufficient to just switch the state of the current player each time a move is played, assume that unless a game is over, at the end of a turn it will ALWAYS be the next players turn.
-- Once a game is completed, I should be able to start another game 
+- Once a game is completed, I should be able to start another game.
 
 ### Problem 2
-We are bored with the basic game now, can you make it so the board can be scaled to any size? 
+We are bored with the basic game now, can you make it so the board can be scaled to any size?
 - Add some kind of input at the start of the game which allows me to change the board size.
-- The board size should be a number between 3 and 15 
+- The board size should be a number between 3 and 15.
 
 ### Problem 3
 We want to store information about who is winning each game and finish our leaderboard page.
@@ -30,7 +30,7 @@ HINT: Use an 'arcade' style leaderboard, where you enter a name at the end of th
 
 ### BONUS
 
-Currently we are using REST endpoints to mutate our db - can you create a new page at "/server-leaderboard", where we use next server actions instead? (https://nextjs.org/docs/app/getting-started/updating-data)
+Currently we are using REST endpoints to mutate our db - can you create a new page at "/server-leaderboard", where we use next server actions instead? (https://nextjs.org/docs/app/getting-started/updating-data).
 
 
 ## Quickstart
