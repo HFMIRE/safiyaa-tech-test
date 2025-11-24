@@ -3,7 +3,7 @@
 
 ## NextJs
 
-- This is a NextJS App router application. You can see the documentation here: https://nextjs.org/docs/13/app.
+- This is a NextJS App router application. You can see the documentation here: https://nextjs.org/docs/app/getting-started.
 
 - For this test, we do not care about authentication/security, though questions may be asked about how you'd plan to implement such things given more time allowance.
 
@@ -28,9 +28,6 @@ We want to store information about who is winning each game and finish our leade
 - Finish the started api/leaderboard endpoint, to send updates to the database.
 HINT: Use an 'arcade' style leaderboard, where you enter a name at the end of the game and send the name to the endpoint.
 
-### BONUS
-
-    
 
 ## Quickstart
 - Make sure you have **node** installed
