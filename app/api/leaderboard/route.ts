@@ -3,7 +3,7 @@ import db, { LeaderboardRow } from "@/lib/db";
 
 export async function GET() {
   const rows = db
-    .prepare<unknown, LeaderboardRow>(`
+    .prepare<unknown[], LeaderboardRow>(`
       SELECT id, name, score, created_at
       FROM leaderboard
       ORDER BY score DESC, created_at ASC
@@ -37,7 +37,7 @@ export async function POST(req: Request) {
   const info = insert.run(name, score);
 
   const row = db
-    .prepare<unknown, LeaderboardRow>(`
+    .prepare<unknown[], LeaderboardRow>(`
       SELECT id, name, score, created_at
       FROM leaderboard
       WHERE id = ?
